@@ -1,7 +1,8 @@
 <html>
+
 <head>
 
-	<title>AI Video Surveillance</title>
+  <title>AI Video Surveillance</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,18 +16,20 @@
 </head>
 
 <body background="background.JPG">
-<center>
-  <h1 class="btn btn-warning heading">AI Object Finder</h1>
-  <br><br>
-  <button onclick="start()" class="btn btn-siccess" id="start">start</button>
-  <br><br>
-  <h3 id="number_of_objects" class="btn btn-warning"></h3>
-  <br><br>
-  <h3 id="status" class="btn btn-danger"></h3>
-</center>
+  <center>
+    <h1 class="btn btn-warning heading">AI Object Finder</h1>
+    <br><br>
+    <div class="form-group" style="width: 30%;"> <label>Object Name :</label> <input type="text" class="form-control"
+        id="objects_name"> <br><br>
+        <button onclick="start()" class="btn btn-success">Start</button>
+      <br><br>
+      <br><br>
+      <h3 id="status" class="btn btn-danger"></h3>
+      <h3 id="objects_status" class="btn btn-warning"></h3>
+  </center>
 
-<div class="copy_right_footer">
-  Developed by - Srihita
-<script src="main.js"></script>
+  <div class="copy_right_footer">
+    Developed by - Srihita
+    <script src="main.js"></script>
 
 </body>
